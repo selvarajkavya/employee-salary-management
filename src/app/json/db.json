@@ -1,0 +1,118 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "name": "Gayathri",
+      "department": "Frontend Developer",
+      "sex": "Female",
+      "status": "Single",
+      "salary": "10000",
+      "address": "Sivaganga",
+      "phone": "7865490325",
+      "email": "gayathri@gmail.com"
+    },
+    {
+      "id": 2,
+      "name": "Kaviya",
+      "department": "Software Engineer",
+      "sex": "Female",
+      "status": "Single",
+      "salary": "20000",
+      "address": "Madurai",
+      "phone": "8769504526",
+      "email": "kavi@gmail.com"
+    },
+    {
+      "id": 3,
+      "name": "Nivetha",
+      "department": "IT Recruiter",
+      "sex": "Female",
+      "status": "Married",
+      "salary": "5000",
+      "address": "Karaikudi",
+      "phone": "9777357657",
+      "email": "nive@gmail.com"
+    },
+    {
+      "id": 4,
+      "name": "Aadhi",
+      "department": "Frontend Developer",
+      "sex": "Female",
+      "status": "Married",
+      "salary": "5000",
+      "address": "Sivaganga",
+      "phone": "8765478907",
+      "email": "aadhi@gmail.com"
+    },
+    {
+      "id": 5,
+      "name": "Fayas Usain",
+      "department": "IT Recruiter",
+      "sex": "Male",
+      "status": "Single",
+      "salary": "40000",
+      "address": "Trichy",
+      "phone": "8976534267",
+      "email": "fayas@gmail.com"
+    },
+    {
+      "id": 6,
+      "name": "Tamil",
+      "department": "Software Systems Developer ",
+      "sex": "Male",
+      "status": "Single",
+      "salary": "5000",
+      "address": "Thanjavur",
+      "phone": "8976537468",
+      "email": "tamil@gmail.com"
+    },
+    {
+      "id": 7,
+      "name": "Rizwan Ahamed",
+      "department": "Fullstack Developer",
+      "sex": "Male",
+      "status": "Married",
+      "salary": "6000",
+      "address": "Pudukottai",
+      "phone": "8765678990",
+      "email": "rizaha@gmail.com"
+    },
+    {
+      "id": 8,
+      "name": "Srimathi",
+      "department": "Computer Hardware Engineer ",
+      "sex": "Female",
+      "status": "Married",
+      "salary": "30000",
+      "address": "Coimbatore",
+      "phone": "9056456789",
+      "email": "sri@gmail.com"
+    },
+    {
+      "id": 9,
+      "name": "Kishore",
+      "department": "Software Systems Developer ",
+      "sex": "Male",
+      "status": "Married",
+      "salary": "30000",
+      "address": "Trichy",
+      "phone": "8745321546",
+      "email": "kishore@gmaail.com"
+    },
+    {
+      "id": 10,
+      "name": "Aayisha",
+      "department": "Software Systems Developer ",
+      "sex": "Female",
+      "status": "Single",
+      "salary": "50000",
+      "address": "Trichy",
+      "phone": "9876789943",
+      "email": "aayisha@gmail.com"
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}

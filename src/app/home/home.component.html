@@ -1,0 +1,89 @@
+<div class="container-fluid">
+    
+    <form [formGroup]="formValue"  style="text-align: center; margin-left: 400px; margin-right: 400px;">
+      
+        <h5 style="float: left;">Employee Salary Details</h5><br><br>
+
+        <div class="form-group">
+
+            <label style="float: left; font-size: larger;">Employee Name</label>
+            <input type="text" formControlName="name" class="form-control" placeholder="Enter Name"/>
+            <span class="error-msg" *ngIf="formValue.get('name')?.errors && formValue.get('name')?.touched">Employee Name is required !</span>
+        </div><br>
+
+        <div class="form-group">
+            <label style="float: left;  font-size: larger;">Department</label><br>
+            <select formControlName="department" style="float: left; width: 580px; height: 35px;">
+                <span class="error-msg" *ngIf="formValue.get('department')?.errors && formValue.get('department')?.touched">Department is required !</span>
+                <option value="">Department</option> 
+                <option value=" Software Engineer">Software Engineer</option>
+                <option value="IT Recruiter">IT Recruiter</option>
+                <option value="Software Systems Developer ">Software Systems Developer </option>
+                <option value="Information Security "> Information Security</option>
+                <option value="Research & Development"> Research & Development</option>
+                <option value="PHP Developer  "> PHP Developer </option>
+                <option value="Backend Developer">Backend Developer</option>
+                <option value="Fullstack Developer">Fullstack Developer</option>
+                <option value="Frontend Developer">Frontend Developer</option>
+                <option value="Computer Hardware Engineer ">Computer Hardware Engineer </option>
+                <option value=" Data Science ">   Data Science</option>
+            
+            </select>
+        </div><br><br>
+
+
+        <div class="form-group">
+            <p style="float: left; font-size:larger;">Sex</p><br>
+            <br>
+            <span class="error-msg" *ngIf="formValue.get('sex')?.errors && formValue.get('sex')?.touched">Sex is required !</span>
+              <div style="float: left;">
+            <input type="radio"  formControlName="sex" id="male" name="gender" value="Male">
+              <label for="male"  >Male</label>
+
+            <input type="radio"  formControlName="sex" id="female" name="gender" value="Female">
+              <label for="female"  >Female</label>
+
+            <input type="radio"   formControlName="sex" id="trans" name="gender" value="Transgender">
+              <label for="trans" >Transgender</label>
+        </div>
+    </div><br>
+        <br>
+         
+        <div class="form-group">
+            <label style="float: left; font-size: larger;">Marital Status</label>
+            <input formControlName="status" placeholder="Enter Marital Status" type="text" class="form-control">
+            <span class="error-msg" *ngIf="formValue.get('status')?.errors && formValue.get('status')?.touched">Marital Status is required !</span>
+           </div><br>
+
+        <div class="form-group">
+            <label style="float: left; font-size: larger;">Salary</label>
+            <input formControlName="salary" type="text" class="form-control" placeholder="Enter Salary">
+            <span class="error-msg" *ngIf="formValue.get('salary')?.errors && formValue.get('salary')?.touched">Salary is required !</span>
+        </div><br>
+
+
+        <div class="form-group">
+            <label style="float: left; font-size: larger;">Mobile Number</label>
+            <input formControlName="phone" type="text" class="form-control" placeholder="Enter Mobile Number">
+            <span class="error-msg" *ngIf="formValue.get('phone')?.errors && formValue.get('phone')?.touched">Mobile Number is required !</span>
+        </div><br>
+
+        <div class="form-group">
+            <label style="float: left;font-size: larger;">Email Address</label>
+            <input formControlName="email" type="email" class="form-control" placeholder="Enter Email">
+             <span class="error-msg" *ngIf="formValue.get('email')?.errors && formValue.get('email')?.touched">Email Address is required !</span>
+        </div><br>
+
+        <div class="form-group">
+            <label style="float: left; font-size: larger;">Address</label>
+            <input formControlName="address" type="text" class="form-control" placeholder="Enter Address">
+        </div><br>
+
+        <button type="button" (click)="postEmployeeDetails()" class="btn btn-primary" style="float: left; width: 80px; background-color: blue;">Submit</button>
+        <button type="button" routerLink="/table" style="color: white; width:80px; background-color: green;" class="btn btn-primary">View</button> 
+        <button type="button"  id="cancel" class="btn btn-secondary" style="float: right; width: 80px;" data-bs-dismiss="modal">Cancel</button>
+      
+   
+    </form>
+   
+</div>
