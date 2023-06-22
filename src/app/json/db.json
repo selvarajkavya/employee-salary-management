@@ -1,7 +1,7 @@
 {
   "posts": [
     {
-      "id": 01,
+      "id": 1,
       "name": "Gayathri",
       "department": "Frontend Developer",
       "sex": "Female",
@@ -12,7 +12,7 @@
       "email": "gayathri@gmail.com"
     },
     {
-      "id": 02,
+      "id": 2,
       "name": "Kaviya",
       "department": "Software Engineer",
       "sex": "Female",
@@ -23,7 +23,7 @@
       "email": "kavi@gmail.com"
     },
     {
-      "id": 03,
+      "id": 3,
       "name": "Nivetha",
       "department": "IT Recruiter",
       "sex": "Female",
